@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: brightness();
+}
+.Enter{
+    z-index: 1;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: auto;
+    width: 50%;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 0;
+    inset: 1;
+    backdrop-filter: blur(3px);
+    filter: url(#glass-decoration);
+    width: 100%;
+    overflow: hidden;
+    isolation: isolate;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+*{
+    font-family: sans-serif;
+    
+}
+h2{
+    color: white;
+}
+.main1{
+    margin-top: 150px ;
+    margin-left: 100px;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 0;
+    inset: 1;
+    backdrop-filter: blur(3px);
+    filter: url(#glass-decoration);
+    overflow: hidden;
+    isolation: isolate;
+    
+}
+.main{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img2{
+    background-color: rgba(228, 228, 228, 0.637);
+    border-radius: 50%;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+section{
+    min-height: max-content;
+    min-height: 500px;
+    color: black;
+    background-color: white;
+    width: 100vw;
+}
+.img2:hover{
+    transition: 2s;
+    color: aqua;
+}
+
+    </style>
+</head>
+<body>
+    <video src="Mincraft.mp4" autoplay muted id="bgVideo"></video>
+<div class="Enter">
+
+        
+        <div class="list ">
+        <a href="/Our memories/prifolio.html">Home</a>
+        <a href="/Our memories/Aboutus.html" target="_blank">Abour us</a>
+        <a href="">Our picture</a>
+        <a href="">Pic of us</a>
+        </div>
+    <div class="main">
+
+        <div class="main1">
+            <h2>Hello Everyone <br> I am Akio future husband for Giyo-san </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aut esse iure animi provident beatae ab dolor, porro, iste, <br> nisi voluptatibus sed? Nobis accusantium cum excepturi <br>
+                repellendus. Maxime provident at modi?</p>
+            </div>
+            <div class="img2">
+                <img src="My Profolio.png" alt="" width="200px">
+            </div>
+    </div>
+</div>
+
+</body>
+</html>
